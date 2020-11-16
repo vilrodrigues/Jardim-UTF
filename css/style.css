@@ -1,0 +1,133 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    font-size: 100%; 
+    font-weight: 300;
+    box-sizing: border-box;
+    font-family: 'VT323';
+}
+body {
+    background: url(../img/flipper2.png) repeat 100%;
+}
+
+/* //////////////////// */
+/* /////// DIVS ////// */
+/* /////////////////// */
+
+.page-wrapper {
+    width: 700px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 15px solid dimgray;
+    border-bottom: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: url(../img/fundo.png) repeat 100%;
+}
+.header {
+    text-align: center;
+    border-bottom: 15px solid #666666;
+    padding: 10px 20px 15px 5px;
+    background: url(../img/header.png) no-repeat 100%;
+}
+.summary {
+    text-align: center;
+    padding: 144px 0px 0px 0px;
+    background: url(../img/div3.png) no-repeat 100%;  
+}
+.preamble, .explanation, .participation, .benefits, .requirements {
+    padding: 0px 20px 0px 50px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+.preamble p, .explanation p, .participation p, .benefits p, .requirements p {
+    margin-top: -4px;
+}
+.preamble {
+    background: url(../img/div4.png) no-repeat 100%;
+}
+.explanation {
+    background: url(../img/div5.png) no-repeat 100%;
+}
+.participation {
+    background: url(../img/div6.png) no-repeat 100%;
+}
+.benefits {
+    background: url(../img/div7.png) no-repeat 100%;
+}
+.requirements {
+    background: url(../img/div8.png) no-repeat 100%;
+}
+.design-archives {
+    float: right;
+    padding: 0px 5px;
+    margin-right: 10px;
+}
+.design-selection {
+    float:left;
+    width: 250px;
+    padding: 1px 5px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.footer {
+    position: absolute;
+    top: 15px;
+    left: 880px;
+}
+.design-resources {
+    padding-bottom: 50px;
+    margin-top: 0px;
+    background: url(../img/div99.png) no-repeat 100%;
+}
+
+
+#extraDiv1 {
+    width: 700px;
+    padding: 500px  10px  50px  0px;
+    margin: 0 auto;
+    background: url(../img/final.png) no-repeat 100%;
+}
+
+/* ///////////////////////// /*/
+/*////////// TEXTO /////////*/
+/* /////////////////////////*/
+
+.header h1 {
+    font-size: 3.5em; 
+    color: yellow;
+    text-shadow: 5px 5px darkslategray;
+}
+li {
+    list-style: none;
+}
+acronym {
+    color: red;
+    cursor: help;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: limegreen;
+}
+p, li {
+    color: #fff;
+}
+a {
+    color: limegreen;
+    text-decoration: none;
+    text-transform: uppercase
+}
+.footer a {
+    color: #fff;
+    text-transform: uppercase;
+    color: yellow;
+    text-shadow: 5px 5px darkslategray;
+}
+.header h2 {
+    font-size: 1.5em; 
+    color: yellow;
+    text-shadow: 5px 5px darkslategray;
+}
